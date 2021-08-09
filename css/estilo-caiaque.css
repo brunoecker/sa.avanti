@@ -110,7 +110,7 @@ span{
     display: inline-block;
     min-width: 155px;
     line-height: 1.42;
-    cursor: none;
+    cursor: pointer;
     border: 1px solid #000;
     margin-top: 8px;
 }
