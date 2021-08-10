@@ -1,6 +1,5 @@
 .corpo{
-    max-width: 1050px;
-    width: 960;
+    width: 100%;
     margin: auto;
     padding-bottom: 40px;
     padding-top: 80px;
@@ -9,6 +8,9 @@
 .container-pag{
     display: table;
 
+}
+.container-pag2{
+    margin-left: 160px;
 }
 
 
@@ -25,7 +27,6 @@
 .produto-single{
     display: flex;
     float: left;
-    width: 300px;
     margin-top: -45px;
     margin-left: 60px;
     padding-left: 45px;
@@ -234,7 +235,16 @@ label a{
 strong{
     font-family: Oswald;
     font-size: 20px;
+}
 
+.strong-title{
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.strong-title2{
+    margin-right: 160px;
+    margin-left: 160px;
 }
 
 .descricao{
@@ -248,6 +258,7 @@ strong{
 }
 
 .caracteristicas-col{
+    margin-left: 160px;
     text-align: left;
 }
 
@@ -432,7 +443,7 @@ input#email{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    margin-left: -70px;
+    margin-left: 70px;
     display: flex;
 }
 
@@ -505,7 +516,7 @@ input#email{
     box-shadow: 0 8px 16px 0 #00000033;
 }
 
-@media(min-width: 100px) and (max-width:768px){
+@media (max-width:768px){
 
     body{
         background-color: white;
@@ -514,13 +525,17 @@ input#email{
     .corpo{
         margin: none;
     }
-   
 
 
     .title-vejatb{
+        margin-right: 25px;
         margin-left: 0px;
         background-color: #e2e2e2;
         border-bottom: 1px solid black;
+    }
+
+    .container-pag2{
+        margin-left: 77px;
     }
 
     .hr-mod-sep{
@@ -529,8 +544,9 @@ input#email{
         width: 0%;
     }
     .small-container{
+        padding-left: 20px;
         margin: 0;
-        margin-left: 40px;
+        margin-left: 0px;
         justify-content: space-between;
         flex-wrap: wrap
     }
@@ -548,11 +564,10 @@ input#email{
     }  
     
     figure, .produto-single{
-        width: 100%;
         display: block;
         float: none;
-        margin-left: 150px;
-        padding-left: 50px;
+        margin-left: 40px;
+        padding-left: 0px;
     }
     h1{
         display: block;
@@ -561,6 +576,10 @@ input#email{
     }
 
     .produto-single{
+        padding-bottom: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
         border: none;
         margin-left: 7px;
         margin-right: 0px;
@@ -572,12 +591,22 @@ input#email{
 
     .col-forma-pagamento{
         width: 50%;
-        margin-left: 140px;
+        margin-left: 110px;
     }
-    .strong-title{
-        text-align: left;
+
+    .strong-title2{
         margin-left: 10px;
-        margin-right: 5px;
+        margin-right: 90px;
+    }
+
+    .strong-title{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 90px;
+    }
+
+    .container-definicoes{
+        margin-left: 60px;
     }
 
     .caracteristicas-col{
@@ -594,7 +623,7 @@ input#email{
         display: flex;
         min-height: 100px;
         align-items: center;
-        margin-left: -10px;
+        margin-left: 25px;
     }
     .col-thumbnail{
         text-align: center;
@@ -603,7 +632,7 @@ input#email{
 
 
 
-@media(min-width: 100px) and (max-width:425px){
+@media (max-width:425px){
 
     body{
         margin: 0;
@@ -626,7 +655,7 @@ input#email{
   
     .produto-single{
         padding-right: 0;
-        padding-left: 37px;
+        padding-left: 15px;
         margin-right: -50px;
         margin-left: 0px;
     }
@@ -650,8 +679,15 @@ input#email{
     }
 
     .descricao{
+        margin-right: 18px;
         margin-top: 10;
         text-align: center;
+    }
+
+    .strong-title2{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 10px;
     }
 
     .strong-title{
@@ -669,7 +705,8 @@ input#email{
     }
 
     .small-container{
-        margin-left: 20px;
+        padding-right: 0px;
+        margin-left: 60px;
     }
 
 
@@ -687,7 +724,7 @@ input#email{
 
 }
 
-@media(min-width: 100px) and (max-width:375px){
+@media (max-width:375px){
 
     #slide-wrapper{
         margin-right: 35px;
@@ -700,17 +737,25 @@ input#email{
         margin-left: 50px;
     }
 
+    .col-thumbnail{
+        display: flex;
+    }
+
+    #apresentacao{
+        width: 100%;
+    }
 
     .produto-single{
-        margin-left: 5px;
+        margin-left: 1px;
         margin-right: 1px;
         padding: 5px;
+        padding-left: 0px;
         padding-right: 0px;
     }
 
     .small-container{
-        margin-left: 0;
-        padding-left: 8px;
+        margin-left: 40px;
+        padding-left: 15px;
     }
 
     .produto-container{
@@ -721,7 +766,7 @@ input#email{
 
 
 
-@media(min-width: 100px) and (max-width:320px){
+@media (max-width:320px){
     .container-definicoes{
         margin-left: 0px;
         margin-right: -130px;
@@ -733,11 +778,12 @@ input#email{
 
     .title-vejatb{
         background-color: #e2e2e2;
-        margin-top: 10px;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+       width: 100%;
+       margin-left: 55px;
+    }
+
+    .container-pag2{
+        margin-left: 45px;
     }
 
     .produto-single{
@@ -749,6 +795,10 @@ input#email{
 
     figure{
         padding-left: 22px;
+    }
+
+    .small-container{
+        margin-left: 45px;
     }
 
     .produto-container{

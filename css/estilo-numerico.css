@@ -427,7 +427,7 @@ fieldset{
 }
 
 
-@media(min-width: 100px) and (max-width:768px){
+@media (max-width:768px){
 
     body{
         background-color: white;
@@ -436,13 +436,17 @@ fieldset{
     .corpo{
         margin: none;
     }
-   
 
 
     .title-vejatb{
+        margin-right: 25px;
         margin-left: 0px;
         background-color: #e2e2e2;
         border-bottom: 1px solid black;
+    }
+
+    .container-pag2{
+        margin-left: 77px;
     }
 
     .hr-mod-sep{
@@ -451,8 +455,9 @@ fieldset{
         width: 0%;
     }
     .small-container{
+        padding-left: 20px;
         margin: 0;
-        margin-left: 40px;
+        margin-left: 0px;
         justify-content: space-between;
         flex-wrap: wrap
     }
@@ -462,7 +467,7 @@ fieldset{
     }
 
     .produto-container{
-        margin-right: 30px;
+        margin-right: 100px;
     }
 
     main{
@@ -470,11 +475,10 @@ fieldset{
     }  
     
     figure, .produto-single{
-        width: 100%;
         display: block;
         float: none;
-        margin-left: 150px;
-        padding-left: 50px;
+        margin-left: 40px;
+        padding-left: 0px;
     }
     h1{
         display: block;
@@ -483,6 +487,10 @@ fieldset{
     }
 
     .produto-single{
+        padding-bottom: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
         border: none;
         margin-left: 7px;
         margin-right: 0px;
@@ -494,12 +502,22 @@ fieldset{
 
     .col-forma-pagamento{
         width: 50%;
-        margin-left: 140px;
+        margin-left: 110px;
     }
-    .strong-title{
-        text-align: left;
+
+    .strong-title2{
         margin-left: 10px;
-        margin-right: 5px;
+        margin-right: 90px;
+    }
+
+    .strong-title{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 90px;
+    }
+
+    .container-definicoes{
+        margin-left: 60px;
     }
 
     .caracteristicas-col{
@@ -516,7 +534,7 @@ fieldset{
         display: flex;
         min-height: 100px;
         align-items: center;
-        margin-left: -10px;
+        margin-left: 25px;
     }
     .col-thumbnail{
         text-align: center;
@@ -525,7 +543,7 @@ fieldset{
 
 
 
-@media(min-width: 100px) and (max-width:425px){
+@media (max-width:425px){
 
     body{
         margin: 0;
@@ -545,10 +563,18 @@ fieldset{
         margin-left: 0px;
     }
 
+    .produto-container{
+        margin-right: 50px;
+    }
+
+    .container-pag2{
+        margin-left: 30px;
+    }
+
   
     .produto-single{
         padding-right: 0;
-        padding-left: 37px;
+        padding-left: 15px;
         margin-right: -50px;
         margin-left: 0px;
     }
@@ -572,8 +598,15 @@ fieldset{
     }
 
     .descricao{
+        margin-right: 0px;
         margin-top: 10;
         text-align: center;
+    }
+
+    .strong-title2{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 10px;
     }
 
     .strong-title{
@@ -586,12 +619,14 @@ fieldset{
     }
    
     .title-vejatb{
-        margin-left: 80px;
+        width: 100%;
+        margin-left: 50px;
         background-color: #e2e2e2;
     }
 
     .small-container{
-        margin-left: 20px;
+        padding-right: 0px;
+        margin-left: 30px;
     }
 
 
@@ -609,12 +644,13 @@ fieldset{
 
 }
 
-@media(min-width: 100px) and (max-width:375px){
+@media (max-width:375px){
 
     #slide-wrapper{
         margin-right: 35px;
     }
     .title-vejatb{
+        margin-right: 0px;
         background-color: #e2e2e2;
     }
 
@@ -622,17 +658,35 @@ fieldset{
         margin-left: 50px;
     }
 
+    .col-thumbnail{
+        display: flex;
+    }
+
+    .strong-title{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    .strong-title2{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+
+    #apresentacao{
+        width: 100%;
+    }
 
     .produto-single{
-        margin-left: 5px;
+        margin-left: 1px;
         margin-right: 1px;
         padding: 5px;
+        padding-left: 0px;
         padding-right: 0px;
     }
 
     .small-container{
-        margin-left: 0;
-        padding-left: 8px;
+        margin-left: 5px;
+        padding-left: 15px;
     }
 
     .produto-container{
@@ -643,7 +697,7 @@ fieldset{
 
 
 
-@media(min-width: 100px) and (max-width:320px){
+@media (max-width:320px){
     .container-definicoes{
         margin-left: 0px;
         margin-right: -130px;
@@ -655,11 +709,18 @@ fieldset{
 
     .title-vejatb{
         background-color: #e2e2e2;
-        margin-top: 10px;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+       margin-left: 70px;
+    }
+
+    .strong-title{
+        margin-left: 60px;
+    }
+    .strong-title2{
+        margin-left: 60px;
+    }
+
+    .container-pag2{
+        margin-left: 25px;
     }
 
     .produto-single{
@@ -671,6 +732,11 @@ fieldset{
 
     figure{
         padding-left: 22px;
+    }
+
+    .small-container{
+        padding-left: 0;
+        margin-left: 20px;
     }
 
     .produto-container{
